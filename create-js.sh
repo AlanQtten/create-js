@@ -7,7 +7,7 @@ else
   pnpm create vite $1 --template vanilla-ts
   cd $1
   rm -rf ./src
-  pnpm install @types/node vitest eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-plugin-prettier -D
+  pnpm install @types/node vitest eslint@8.56.0 eslint-config-airbnb@19 eslint-config-airbnb-typescript@18 eslint-config-prettier@9 eslint-plugin-prettier@5 -D
   cp $CREATE_JS_HOME/.eslintrc.cjs .eslintrc.cjs
   cp $CREATE_JS_HOME/tsconfig.eslint.json tsconfig.eslint.json
   cp $CREATE_JS_HOME/tsconfig.json tsconfig.json
