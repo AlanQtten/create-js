@@ -6,7 +6,7 @@ export default mergeConfig(
   defineConfig({}),
   defineVitestConfig({
     test: {
-      include: ['src/**/__test__/*']
+      include: ['src/**/__test__/*'],
     },
   })
 );
