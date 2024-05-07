@@ -14,5 +14,6 @@ else
   cp $CREATE_JS_HOME/vite.config.ts vite.config.ts
   cp $CREATE_JS_HOME/prettier.config.js prettier.config.js
   cp -r $CREATE_JS_HOME/src src
+  node $CREATE_JS_HOME/script.js $PWD
   code ./
 fi

@@ -1,12 +1,12 @@
 ### step1
 
 ```bash
-pwd # in this project
+pnpm install
 ```
 
 ### step2
 
 ```bash
-export CREATE_JS_HOME="..." # copy step1's result to here
+export CREATE_JS_HOME="..." # this project's path, aka "pwd"
 alias create-js="sh $CREATE_JS_HOME/create-js.sh"
 ```

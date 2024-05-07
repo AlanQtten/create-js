@@ -1,0 +1,11 @@
+{
+  "name": "create-apple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "json-wizard": "^0.0.8"
+  },
+  "type": "module"
+}

@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  json-wizard:
+    specifier: ^0.0.8
+    version: 0.0.8
+
+packages:
+
+  /json-wizard@0.0.8:
+    resolution: {integrity: sha512-FkQ6H/he2rr5p9Px9VtVDYHFNIGEo9SYiOf15tJ6oCqnkXcVWBO34Iis3bM4GKvlT8gwnCFxdKq2e9EdEpcltA==, tarball: https://registry.npmjs.org/json-wizard/-/json-wizard-0.0.8.tgz}
+    dev: false
